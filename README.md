@@ -2,6 +2,8 @@
 
 **AutoReel Creator** is a lightning-fast, incredibly powerful web application that empowers users to effortlessly turn their raw photos into stunning, cinematic music videos natively straight from their browser. Oh... and it also rips audio directly from YouTube and Facebook practically instantaneously. ⚡
 
+Try it here 👉 [AutoReel Creator Live Demo](https://autoreel-creator-2026.netlify.app/)
+
 ## 🚀 Key Features
 
 *   **100% Native Browser Extrusion**: We completely completely ditched clunky cloud rendering and WASM ffmpeg servers! AutoReel Creator utilizes hyper-optimized native modern Browser APIs (`WebCodecs`, `WebAudio`) to construct high-definition MP4 videos frame-by-frame on your device, achieving final video export within mere *seconds*. 
