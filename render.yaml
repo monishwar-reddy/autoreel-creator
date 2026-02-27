@@ -1,0 +1,10 @@
+version: '1'
+services:
+  - type: web
+    name: autoreel-extraction-server
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
