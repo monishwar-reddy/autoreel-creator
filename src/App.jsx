@@ -354,12 +354,12 @@ function MusicStep({ selectedMusic, setSelectedMusic }) {
       {/* Import from Social Media */}
       <div className="glass-card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '1.5rem' }}>
         <h4 style={{ margin: 0, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <Film size={18} /> Extract from YouTube or Facebook
+          <Film size={18} /> past music link
         </h4>
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
           <input
             type="text"
-            placeholder="Paste video link here (youtube.com/... or facebook.com/...)"
+            placeholder="past link"
             value={socialLink}
             onChange={(e) => setSocialLink(e.target.value)}
             style={{ flex: 1, minWidth: '200px', padding: '0.8rem 1rem', borderRadius: '0.5rem', border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(0,0,0,0.2)', color: 'white' }}
